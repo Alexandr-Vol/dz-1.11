@@ -59,7 +59,7 @@ class Lecturer(Mentor):
         return f"Имя: {self.name} \nФамилия: {self.surname} \nСредняя оценка за лекции: {self.av_gr()}"
 
 class Reviewer(Mentor):
-    def __init__(self, name, surname):
+    def __init__(self, name, surname, grade):
         self.name = name
         self.surname = surname
 
